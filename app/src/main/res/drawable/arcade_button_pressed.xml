@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- HARD Shadow (Smaller in pressed state) -->
+    <item android:top="8dp" android:left="8dp" android:bottom="0dp" android:right="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/arcade_dark" />
+        </shape>
+    </item>
+    <!-- Main Box (Moved closer to shadow) -->
+    <item android:top="4dp" android:left="4dp" android:bottom="4dp" android:right="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/arcade_cream" />
+            <stroke android:width="4dp" android:color="@color/arcade_dark" />
+        </shape>
+    </item>
+</layer-list>

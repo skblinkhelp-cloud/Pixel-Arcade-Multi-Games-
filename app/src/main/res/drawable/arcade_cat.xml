@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    <!-- Body -->
+    <path android:fillColor="#FFB347" android:pathData="M20,30 h40 v40 h-40 z" />
+    <!-- Ears -->
+    <path android:fillColor="#FFB347" android:pathData="M20,20 h10 v10 h-10 z M50,20 h10 v10 h-10 z" />
+    <!-- Eyes -->
+    <path android:fillColor="#000000" android:pathData="M30,40 h5 v5 h-5 z M45,40 h5 v5 h-5 z" />
+    <!-- Nose -->
+    <path android:fillColor="#000000" android:pathData="M38,50 h4 v3 h-4 z" />
+    <!-- Tail -->
+    <path android:fillColor="#E67E22" android:pathData="M60,50 h10 v10 h-10 z" />
+</vector>

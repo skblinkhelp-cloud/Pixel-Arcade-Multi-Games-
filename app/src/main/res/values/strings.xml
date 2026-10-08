@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MultiGame Arcade</string>
+    <string name="desc_arcade_logo">Pixel Arcade Logo</string>
+    <string name="desc_home">Home</string>
+    <string name="desc_games">Games</string>
+    <string name="desc_favorites">Favorites</string>
+    <string name="desc_settings">Settings</string>
+    <string name="desc_play_discover_card">Play and Discover Card</string>
+    <string name="desc_jump_quest">Jump Quest</string>
+    <string name="desc_speed_rush">Pixel Car Rush</string>
+    <string name="desc_space_blast">Space Blast</string>
+    <string name="desc_forest_run">Forest Run</string>
+    <string name="desc_fishing_fun">Fishing Fun</string>
+    <string name="desc_speed_jump">Speed Jump</string>
+    <string name="desc_jigsaw_puzzle">Jigsaw Puzzle</string>
+    <string name="desc_pixel_moto">Pixel Moto Rider</string>
+    <string name="desc_pixel_snake">Pixel Snake Arcade</string>
+    <string name="desc_arcade_game_8">Arcade Game 8</string>
+    <string name="desc_arcade_game_9">Arcade Game 9</string>
+    <string name="desc_coming_soon">🔒\nCOMING\nSOON</string>
+</resources>

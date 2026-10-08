@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Sky Gradient -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pixel_sky_gradient" />
+
+    <!-- Stars/Sparkles -->
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/arcade_pixel_star"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/arcade_pixel_star"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="280dp" />
+
+    <!-- Clouds -->
+    <ImageView
+        android:id="@+id/cloud1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arcade_pixel_cloud"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="-50dp"
+        android:alpha="0.8" />
+
+    <ImageView
+        android:id="@+id/cloud2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:src="@drawable/arcade_pixel_cloud"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="200dp"
+        android:alpha="0.6" />
+
+    <!-- Bottom Grass Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <!-- Characters/Flowers will go here in content scroll -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/arcade_pixel_grass" />
+    </LinearLayout>
+
+</merge>

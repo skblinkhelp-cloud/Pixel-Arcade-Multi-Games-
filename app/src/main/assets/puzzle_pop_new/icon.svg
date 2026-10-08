@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#FFE575"/>
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="none" stroke="#211C19" stroke-width="24"/>
+  
+  <!-- Outer Silhouette -->
+  <rect x="120" y="120" width="272" height="272" rx="84" fill="#211C19" />
+  <rect x="90" y="80" width="116" height="116" rx="32" fill="#211C19" />
+  <rect x="306" y="80" width="116" height="116" rx="32" fill="#211C19" />
+
+  <!-- Ears Body -->
+  <rect x="110" y="100" width="76" height="76" rx="20" fill="#FCD04B" />
+  <rect x="326" y="100" width="76" height="76" rx="20" fill="#FCD04B" />
+
+  <!-- Ears Pink Inner -->
+  <rect x="126" y="116" width="44" height="44" rx="12" fill="#FFAEC9" />
+  <rect x="342" y="116" width="44" height="44" rx="12" fill="#FFAEC9" />
+
+  <!-- Main Head -->
+  <rect x="136" y="136" width="240" height="240" rx="72" fill="#FCD04B" />
+  <rect x="172" y="146" width="168" height="26" rx="10" fill="#FFEAA7" />
+
+  <!-- Cheeks -->
+  <rect x="142" y="266" width="52" height="36" rx="16" fill="#FF7597" />
+  <rect x="318" y="266" width="52" height="36" rx="16" fill="#FF7597" />
+
+  <!-- Eyes -->
+  <circle cx="210" cy="235" r="21" fill="#211C19" />
+  <circle cx="302" cy="235" r="21" fill="#211C19" />
+  <circle cx="218" cy="227" r="8" fill="#FFFFFF" />
+  <circle cx="310" cy="227" r="8" fill="#FFFFFF" />
+
+  <!-- Mouth -->
+  <path d="M 230 276 Q 256 296 256 276 Q 256 296 282 276" fill="none" stroke="#211C19" stroke-width="16" stroke-linecap="round" />
+
+  <!-- Paws -->
+  <rect x="183" y="356" width="48" height="42" rx="18" fill="#FCD04B" stroke="#211C19" stroke-width="13" />
+  <rect x="281" y="356" width="48" height="42" rx="18" fill="#FCD04B" stroke="#211C19" stroke-width="13" />
+</svg>

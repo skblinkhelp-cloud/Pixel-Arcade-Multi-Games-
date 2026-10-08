@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MultiGameArcade" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFCC00</item>
+        <item name="colorSecondary">#00E5FF</item>
+        <item name="colorSurface">#0A0F0D</item>
+        <item name="android:colorBackground">#0A0F0D</item>
+        <item name="android:windowBackground">@drawable/img_2739</item>
+    </style>
+
+    <style name="Theme.MultiGameArcade" parent="Base.Theme.MultiGameArcade" />
+
+    <style name="Theme.MultiGameArcade.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">#0A0F0D</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/pixel_arcade_logo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">#0A0F0D</item>
+        <item name="colorPrimary">#FFCC00</item>
+        <item name="colorSurface">#0A0F0D</item>
+        <item name="android:colorBackground">#0A0F0D</item>
+    </style>
+</resources>

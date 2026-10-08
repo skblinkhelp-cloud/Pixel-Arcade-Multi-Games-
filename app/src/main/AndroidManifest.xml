@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MultiGameArcade">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MultiGameArcade.Splash"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".JumpQuestActivity"
+            android:exported="false"
+            android:label="Jump Quest" />
+
+        <activity
+            android:name=".SpeedRushActivity"
+            android:exported="false"
+            android:label="Speed Rush" />
+
+        <activity
+            android:name=".CarSpeedRushActivity"
+            android:exported="false"
+            android:label="Car Speed Rush" />
+
+        <activity
+            android:name=".SpaceBlastActivity"
+            android:exported="false"
+            android:label="Space Blast" />
+
+
+
+
+
+
+        <activity
+            android:name=".PuzzlePopNewActivity"
+            android:exported="false"
+            android:label="Puzzle Pop"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:screenOrientation="fullSensor" />
+
+        <activity
+            android:name=".JigsawActivity"
+            android:exported="false"
+            android:label="Farm Jigsaw Puzzle"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:screenOrientation="fullSensor" />
+
+        <activity
+            android:name=".PixelMotoActivity"
+            android:exported="false"
+            android:label="Pixel Moto Rider"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".PixelSnakeActivity"
+            android:exported="false"
+            android:label="Pixel Snake Arcade"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:screenOrientation="fullSensor" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2739"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/desc_arcade_logo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pixel_arcade_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/topNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo">
+
+        <ImageButton
+            android:id="@+id/btnHomeTop"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_home"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_home" />
+
+        <ImageButton
+            android:id="@+id/btnGamesTop"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:layout_marginStart="-32dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_games"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_games" />
+
+        <ImageButton
+            android:id="@+id/btnFavoritesTop"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:layout_marginStart="-32dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_favorites"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_favorites" />
+
+        <ImageButton
+            android:id="@+id/btnSettingsTop"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:layout_marginStart="-32dp"
+            android:background="@null"
+            android:contentDescription="@string/desc_settings"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_settings" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/gameScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topNav">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivPlayDiscoverCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-10dp"
+                android:layout_marginTop="-6dp"
+                android:layout_marginEnd="-10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/desc_play_discover_card"
+                android:src="@drawable/img_2748" />
+
+            <GridLayout
+                android:id="@+id/gameGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignBounds"
+                android:columnCount="3"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:paddingBottom="120dp"
+                android:useDefaultMargins="false">
+
+                <!-- Slot 1: Pixel Moto Rider (Bike Game) -->
+                <ImageView
+                    android:id="@+id/gamePixelMoto"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/desc_pixel_moto"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pixel_moto_card" />
+
+                <!-- Slot 2: Farm Jigsaw Puzzle -->
+                <ImageView
+                    android:id="@+id/gameJigsawPuzzle"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/desc_jigsaw_puzzle"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/game_jigsaw_card" />
+
+                <!-- Slot 3: Jump Quest -->
+                <ImageView
+                    android:id="@+id/gameJumpQuest"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/desc_jump_quest"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/game_1" />
+
+                <!-- Slot 4: Pixel Car Rush -->
+                <ImageView
+                    android:id="@+id/gameSpeedRush"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/desc_speed_rush"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/game_2" />
+
+                <!-- Slot 5: Space Blast -->
+                <ImageView
+                    android:id="@+id/gameSpaceBlast"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/desc_space_blast"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/game_3" />
+
+                <!-- Slot 6: Speed Jump -->
+                <ImageView
+                    android:id="@+id/gameSpeedJump"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/desc_speed_jump"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/game_6" />
+
+                <!-- Slot 7: Puzzle Pop -->
+                <ImageView
+                    android:id="@+id/gameSlot7"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/desc_arcade_game_8"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/game_slot_7" />
+
+                <!-- Slot 8: Pixel Snake Arcade -->
+                <ImageView
+                    android:id="@+id/gamePixelSnake"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/desc_pixel_snake"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pixel_snake_card" />
+
+                <!-- Coming Soon Slots: 9, 10, 11, 12 -->
+                <FrameLayout
+                    android:id="@+id/gameSlot9"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arcade_coming_soon_card"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/desc_coming_soon"
+                        android:textColor="#B0FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/gameSlot10"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arcade_coming_soon_card"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/desc_coming_soon"
+                        android:textColor="#B0FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/gameSlot11"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arcade_coming_soon_card"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/desc_coming_soon"
+                        android:textColor="#B0FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/gameSlot12"
+                    android:layout_width="0dp"
+                    android:layout_height="170dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/arcade_coming_soon_card"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/desc_coming_soon"
+                        android:textColor="#B0FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

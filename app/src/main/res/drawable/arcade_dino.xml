@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Dark Pixel Outline -->
+    <path android:fillColor="#1B4D10" android:pathData="M15,15 h45 v55 h-45 z" />
+
+    <!-- Main Green Body -->
+    <path android:fillColor="#6BCB37" android:pathData="M18,18 h39 v49 h-39 z" />
+
+    <!-- Lighter Green Head/Back Highlight -->
+    <path android:fillColor="#88E052" android:pathData="M20,20 h25 v15 h-25 z" />
+
+    <!-- Yellow Belly/Chest -->
+    <path android:fillColor="#FFE853" android:pathData="M22,38 h22 v24 h-22 z" />
+
+    <!-- Red Back Spikes -->
+    <path android:fillColor="#FF5252" android:pathData="M57,22 h8 v10 h-8 z M57,38 h8 v10 h-8 z M57,54 h8 v10 h-8 z" />
+
+    <!-- Dino Snout / Mouth -->
+    <path android:fillColor="#6BCB37" android:pathData="M10,28 h10 v20 h-10 z" />
+    <path android:fillColor="#1B4D10" android:pathData="M12,42 h6 v2 h-6 z" />
+
+    <!-- Big Pixel Eyes (Black) -->
+    <path android:fillColor="#000000" android:pathData="M24,24 h8 v10 h-8 z" />
+    <!-- White Eye Shine -->
+    <path android:fillColor="#FFFFFF" android:pathData="M26,26 h3 v4 h-3 z" />
+
+    <!-- Cute Pink Cheek -->
+    <path android:fillColor="#FF70A6" android:pathData="M18,36 h6 v5 h-6 z" />
+
+    <!-- Tail -->
+    <path android:fillColor="#6BCB37" android:pathData="M57,48 h15 v12 h-15 z" />
+    <path android:fillColor="#1B4D10" android:pathData="M67,45 h8 v5 h-8 z" />
+
+</vector>

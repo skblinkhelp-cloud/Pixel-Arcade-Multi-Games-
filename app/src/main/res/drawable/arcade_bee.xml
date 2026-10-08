@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="30dp"
+    android:viewportWidth="40"
+    android:viewportHeight="30">
+    <!-- Body -->
+    <path android:fillColor="#FDF160" android:pathData="M10,10 h20 v10 h-20 z" />
+    <!-- Stripes -->
+    <path android:fillColor="#000000" android:pathData="M15,10 h3 v10 h-3 z M22,10 h3 v10 h-3 z" />
+    <!-- Wings -->
+    <path android:fillColor="#D1E8F7" android:pathData="M15,5 h10 v5 h-10 z" />
+    <!-- Stinger -->
+    <path android:fillColor="#000000" android:pathData="M30,15 h3 v3 h-3 z" />
+</vector>

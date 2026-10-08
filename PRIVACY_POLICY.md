@@ -2,7 +2,7 @@
 
 **Effective Date:** October 8, 2026
 
-**MultiGame Arcade** ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we handle information when you use our mobile application **MultiGame Arcade** (Package Name: `com.sk.multigamearcade`).
+**SK Software** ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we handle information when you use our mobile application **MultiGame Arcade** (Package Name: `com.sk.multigamearcade`).
 
 ---
 
@@ -45,5 +45,6 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 
 If you have any questions or suggestions regarding this Privacy Policy, please contact us at:
 
+- **Developer:** SK Software
 - **Application:** MultiGame Arcade (`com.sk.multigamearcade`)
-- **Email:** support@multigamearcade.com
+- **Support Email:** sk.blink.help@gmail.com
